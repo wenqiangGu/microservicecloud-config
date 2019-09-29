@@ -30,7 +30,7 @@ mybatis:
 eureka: 
     client:   #客户端注册进eureka服务列表内
         service-url:
-        defaultZone: http://localhost:7001/eureka     #单机版 
+            defaultZone: http://localhost:7001/eureka     #单机版 
     instance: 
         instance-id: dept-8001.com
         #自定义服务名称信息
@@ -70,7 +70,7 @@ mybatis:
 eureka: 
     client:   #客户端注册进eureka服务列表内
         service-url: 
-        defaultZone: http://localhost:7001/eureka     #单机版 
+            defaultZone: http://localhost:7001/eureka     #单机版 
     instance: 
         instance-id: dept-8001.com
         #自定义服务名称信息
